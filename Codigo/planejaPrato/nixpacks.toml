@@ -1,0 +1,8 @@
+[build]
+base_image = "gradle:7.0-jdk11"
+
+[build.cmds]
+- gradle build
+
+[start]
+cmd = "java -jar build/libs/Aplicacao.jar"
